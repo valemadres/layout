@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+ç
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/NIKE" >
+    </ImageView>
+
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp">
+    </EditText>
+
+
+
+    <EditText
+        android:layout_below="@+id/Email"
+        android:id="@+id/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp">
+    </EditText>
+
+
+    <Button
+        android:id="@+id/Ingresar"
+        android:layout_below="@+id/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp">
+    </Button>
+</RelativeLayout>
